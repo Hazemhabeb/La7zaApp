@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "459527186487",
+    "firebase_url": "https://la7za-c9be4.firebaseio.com",
+    "project_id": "la7za-c9be4",
+    "storage_bucket": "la7za-c9be4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459527186487:android:374431208878e1d7",
+        "android_client_info": {
+          "package_name": "sohba.sohba_travel.com.la7zaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459527186487-nkn7pogj83ok7g03smvc8oj1lb8gsamk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sohba.sohba_travel.com.la7zaapp",
+            "certificate_hash": "A3C50694B5E42DD82A81D49D6B58F8589E08117C"
+          }
+        },
+        {
+          "client_id": "459527186487-9617bnc4allppabnd0i52om6ppt7et16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6PpxeHI9k0UQ3uDoPsuWUQrDiPp56bpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459527186487-9617bnc4allppabnd0i52om6ppt7et16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

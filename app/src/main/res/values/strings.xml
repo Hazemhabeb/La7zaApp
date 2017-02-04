@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">La7za App</string>
+    <string name="font_regular">diavlo/Diavlo_BOLD_II_37.otf</string>
+    <string-array name="planets_array">
+        <item>Cairo</item>
+        <item>Ain Shams</item>
+        <item>Bab al-Louq</item>
+        <item>Egypt Downtown</item>
+        <item>El Manial</item>
+        <item>El Marg</item>
+        <item>El Matareya</item>
+        <item>Garden City</item>
+        <item>Heliopolis</item>
+    </string-array>
+    <string-array name="case_">
+        <item>Operations</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="blood_type">
+        <item>All</item>
+        <item>A +</item>
+        <item>B +</item>
+        <item>AB +</item>
+        <item>O +</item>
+
+        <item>A -</item>
+        <item>B -</item>
+        <item>AB -</item>
+        <item>O -</item>
+    </string-array>
+    <string name="title_activity_add_request">addRequest</string>
+    <string name="post">Saving somone live :D \3</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sohba.sohba_travel.com.la7zaapp">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Main">
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.signupActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Activities.mainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.addRequest"
+            android:label="@string/title_activity_add_request"
+            android:theme="@style/Theme.Main"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".Activities.ProfileActivity">
+        </activity>
+    </application>
+
+</manifest>

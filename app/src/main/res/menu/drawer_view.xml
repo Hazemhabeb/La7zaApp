@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/home_m_lm"
+            android:checked="true"
+            android:title="Add Request"
+            android:icon="@drawable/add"/>
+        <item
+            android:id="@+id/home_main_lm"
+            android:checked="true"
+            android:title="Join Team"
+            android:icon="@drawable/team"/>
+        <item
+            android:id="@+id/depart_lm"
+            android:checked="true"
+            android:title="Search"
+            android:icon="@drawable/search"/>
+        <item
+            android:id="@+id/favorite_lm"
+            android:checked="true"
+            android:title="History"
+            android:icon="@drawable/order"/>
+        <item
+            android:id="@+id/contact_lm"
+            android:checked="true"
+            android:title="Edit Pattren"
+            android:icon="@drawable/lm3"/>
+
+        <group android:id="@+id/my_id">
+            <item
+                android:id="@+id/setting_lm"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about_lm"
+                android:title="About US" />
+
+            <item
+                android:id="@+id/logout_lm"
+                android:title="Logout" />
+
+        </group>
+    </group>
+
+
+</menu>
